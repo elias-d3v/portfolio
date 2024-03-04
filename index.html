@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Elias</title>
+    <script src="assets/script.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="icon" type="image/x-icon" href="photos/iconp.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        
+        <h1>
+            <span class="material-symbols-outlined">bolt
+            </span>
+            Elias BIBA
+        </h1>
+        <ul>
+            <li>
+                <a href="mailto:eliasbibapro@gmail.com">eliasbibapro@gmail.com</a>
+                <span class="material-symbols-outlined">
+                    call_made
+                </span>
+            </li>
+            <li id="dark-mode" onclick="changeDarkMode()">Dark mode</li>
+        </ul>
+    </nav>
+    <header class="reveal">
+        <div class="header-gauche">
+            <small><span class="material-symbols-outlined">
+                home_pin
+                </span>
+                Angers, France
+            </small>
+            <h1><span class="bigtext">Bonjour,</span></br>
+                <span class="midtext">Voici le portfolio d'Elias</span>
+            </h1>
+            <p class="para">
+                Moi c'est Elias, 20 ans, un passionné de l'informatique. Aujourd'hui, je suis éléve à la 3W Academy et je recherche une alternance au poste de développeur web/fullstack. Débrouillard et autonome, je sais m'adapter à tous types de situations.
+            </p>
+
+        <div class="links">
+            <a href="https://www.linkedin.com/in/elias-biba/" target="_blank">
+                LinkedIn
+                <span class="material-symbols-outlined">
+                call_made
+                </span>
+            </a>
+            <a href="https://github.com/elias-d3v" target="_blank">
+                GitHub
+                <span class="material-symbols-outlined">
+                call_made
+                </span>
+            </a>
+            <a href="https://drive.google.com/file/d/19iCM_-mSofRC05Gh_P3ODzJWq_qKJPSe/view?usp=sharing" target="_blank">
+                Curriculum
+                <span class="material-symbols-outlined">
+                call_made
+                </span>
+ 
+            </a>
+        </div>
+        </div>
+        <div class="header-droit">
+            <img src="photos/me-pic.jpg" alt="Photo de profil">
+        </div>
+    </header>
+    <section class="a-propos">
+        <h4>À propos de moi</h4>
+        <p>
+            J'ai toujours été passionné par le développement, mais ce qui m'a vraiment motivé à persister, c'est la cyber-sécurité. J'ai pu vivre plusieurs expériences avec lesquelles j'ai découvert un nouveau point de vue du web. J'ai notamment été actif sur les plateformes RootMe et récemment HackTheBox. Ma persévérance dans le domaine témoigne de ma détermination sans failles dans la réalisation de mes projets personnels.
+        </p>
+        <img class='signature' src="photos/signature.png" alt="signature">
+    </section>
+    <section class="images">
+        <div class="carte-image" >
+            <div class="image-droit" data-aos="fade-up">
+                <a href="https://elias-d3v.github.io/artisan-site-web/" target="_blank"><img src="photos/projet-artisan.png" alt="Projet artisan"></a>
+                
+            </div>
+            <div class="texte-droit" data-aos="fade-left">
+                <h1>Projet site web artisan</h1>
+                <p>  
+                Ce projet est fait pour un artisan qui réalise des projets en relation avec la ferraille. Dans ce projet j'ai pu faire utiliser du Javascript, notamment pour la redirection d'ancres et la redirection en haut du page via un boutton "fixed". J'ai aussi mis en pratique les principes de flexbox.
+                </p>
+            </div>
+        </div>
+        <div class="carte-image" >
+            <div class="image-droit" data-aos="fade-up">
+                <img src="photos/projet.png" alt="Projet en cours">
+            </div>
+            <div class="texte-droit" data-aos="fade-left">
+                <h1>Projet en cours de création ...</h1>
+                <p class="hidden">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor quam, egestas vel neque in, convallis semper diam. Lorem ipsum dolor sit amet,consectetur adipiscing elit. Proin sit amet lacinia est, et pharetra ligula. Nunc vel ipsum massa. Praesent interdum tempor elit ac dictum
+                </p>
+            </div>
+        </div>
+        <div class="carte-image" >
+            <div class="image-droit" data-aos="fade-up">
+                <img src="photos/projet.png" alt="Projet en cours" data-aos="fade-right">
+            </div>
+            <div class="texte-droit" data-aos="fade-left">
+                <h1>Projet en cours de création ...</h1>
+                <p class="hidden">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor quam, egestas vel neque in, convallis semper diam. Lorem ipsum dolor sit amet,consectetur adipiscing elit. Proin sit amet lacinia est, et pharetra ligula. Nunc vel ipsum massa. Praesent interdum tempor elit ac dictum
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h3>
+            <span class="material-symbols-outlined">bolt
+            </span>
+            Elias BIBA
+        </h3>
+        <p>&copy; Elias Biba 2024</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
