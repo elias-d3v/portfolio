@@ -6,6 +6,7 @@
     <title>Portfolio de Elias</title>
     <script src="assets/script.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/d723365d85.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/main.css">
     <link rel="icon" type="image/x-icon" href="photos/iconp.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -69,16 +70,44 @@
         </div>
     </header>
     <section class="a-propos">
-        <h4>À propos de moi</h4>
-        <p>
+        <h4 data-aos="fade-up">À propos de moi</h4>
+        <p data-aos="fade-up">
             J'ai toujours été passionné par le développement, mais ce qui m'a vraiment motivé à persister, c'est la cyber-sécurité. J'ai pu vivre plusieurs expériences avec lesquelles j'ai découvert un nouveau point de vue du web. J'ai notamment été actif sur les plateformes RootMe et récemment HackTheBox. Ma persévérance dans le domaine témoigne de ma détermination sans failles dans la réalisation de mes projets personnels.
         </p>
         <img class='signature' src="photos/signature.png" alt="signature">
     </section>
+    <ul class="competences" data-aos="fade-up">
+        <li class="groupe">
+            <i class="fa-brands fa-html5"></i>
+            <p>HTML</p>
+        </li>
+        <li class="groupe">
+            <i class="fa-brands fa-css3-alt"></i>
+            <p>CSS</p>
+        </li>
+        <li class="groupe">
+            <i class="fa-brands fa-js"></i>
+            <p>JavaScript</p>
+        </li>
+        <li class="groupe">
+            <i class="fa-brands fa-php"></i>
+            <p>PHP</p>
+        </li>
+        <li class="groupe">
+            <i class="fa-brands fa-node-js"></i>
+            <p>Node.Js</p>
+        </li>
+        <li class="groupe">
+            <i class="fa-solid fa-database"></i>
+            <p>SQL</p>
+        </li>
+    </ul>
+
+
     <section class="images">
         <div class="carte-image" >
             <div class="image-droit" data-aos="fade-up">
-                <a href="https://elias-d3v.github.io/artisan-site-web/" target="_blank"><img src="photos/projet-artisan.png" alt="Projet artisan"></a>
+                <a href="https://artisan-site-web.vercel.app/" target="_blank"><img src="photos/projet-artisan.png" alt="Projet artisan"></a>
                 
             </div>
             <div class="texte-droit" data-aos="fade-left">
@@ -120,8 +149,6 @@
         <p>&copy; Elias Biba 2024</p>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
+    <script>AOS.init();</script>
 </body>
 </html>
