@@ -37,7 +37,7 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 40px;
+    margin-left: 70px;
     font-size: 15px;
     cursor: pointer;
     position: relative;
@@ -81,6 +81,8 @@ header {
 .midtext {
     opacity: 0;
     display: inline-block;
+    font-weight: 450;
+    font-size: 20px;
     transform: translateY(-30px);
     animation: apparition 0.8s 0.8s ease-out forwards;
 }
@@ -116,6 +118,21 @@ header .header-gauche .links a {
     position: relative;
     margin-right: 40px;
     font-weight: bold;
+}
+
+.header-gauche .links a[href="https://www.linkedin.com/in/elias-biba/"] {
+    border: 2px solid var(--text-color);
+    padding: 9px 26px 7px 9px;
+    border-radius: 5px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.header-gauche .links a[href="https://www.linkedin.com/in/elias-biba/"] .material-symbols-outlined {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
 }
 
 header .header-gauche .links a span {
@@ -263,5 +280,19 @@ footer p {
     }
 }
 
+#autotext {
+     border-right: 0.15em solid var(--text-color);
+     letter-spacing: 0.05em;
+     animation: blink 1s step-end infinite;
+}
 
+@keyframes blink {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: var(--text-color); 
+    }
+}
 
