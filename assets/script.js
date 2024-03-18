@@ -17,7 +17,7 @@ function changeDarkMode() {
 
 
 const title = document.getElementById('autotext');
-const text = "Développeur fullstack.";
+const text = "Développeur fullstack";
 
 let index = 0
 
